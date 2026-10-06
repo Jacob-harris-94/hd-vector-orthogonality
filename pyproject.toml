@@ -5,7 +5,7 @@ description = "Default template for PDM package"
 authors = [
     {name = "jake", email = "jacob.harris.122@gmail.com"},
 ]
-dependencies = ["numpy>=2.5.3", "plotly-express>=0.4.1", "text-histogram>=0.0.7"]
+dependencies = ["numpy>=2.5.3", "plotly-express>=0.4.1", "text-histogram>=0.0.7", "black>=26.10.0"]
 requires-python = "==3.12.*"
 readme = "README.md"
 license = {text = "MIT"}
