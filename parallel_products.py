@@ -51,7 +51,7 @@ if __name__ == "__main__":
             for fut in as_completed(futs):
                 results.append(fut.result())
             combined = np.hstack(results)
-            text_hist(combined, bins=round(1.0 / args.binsize), max_width=24)
+            #text_hist(combined, bins=round(1.0 / args.binsize), max_width=24)
             mean_result = np.mean(combined)
             print(f"mean: {mean_result}")
             counts, bin_edges = np.histogram(combined, bins=round(1.0 / args.binsize), range=(0, 1))
